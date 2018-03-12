@@ -1,5 +1,5 @@
 import scrapy
-
+#scrapy crawl zufang
 class GanjiSpider(scrapy.Spider):
     name="zufang"
     start_urls=["http://bj.ganji.com/fang1/chaoyang/"]
